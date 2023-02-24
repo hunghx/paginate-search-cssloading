@@ -1,0 +1,90 @@
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
+    align-items: center;
+    font-family: Arial;
+}
+
+header ul li:hover {
+    color: orange;
+    transform: scale(1.05);
+}
+
+header {
+    /* height: 80px !important; */
+    border-radius: 2px;
+    background-color: #0000008a;
+    color: aliceblue;
+    transition: .4s;
+    position: fixed;
+    z-index: 10;
+    min-width: 100%;
+}
+
+header input {
+    border-radius: 5px;
+    height: 39px;
+}
+
+header button {
+    height: 38px;
+    border-radius: 10px;
+
+}
+
+.trip-three {
+    display: none;
+    z-index: 10000;
+    cursor: pointer;
+}
+
+.forminput {
+    background: transparent;
+    border: 1px solid aliceblue;
+    outline: 0;
+    color: aliceblue;
+    flex-grow: 2;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.trip-three:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 739px) {
+
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    header ul li {
+        display: none;
+    }
+
+    .container nav {
+        width: 100%;
+    }
+
+    .trip-three {
+        display: block;
+        height: 25px;
+        width: 25px;
+    }
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}

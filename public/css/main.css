@@ -1,0 +1,32 @@
+
+/* import file css từ layout */
+@import url(./layout/footer.css);
+@import url(./layout/header.css);
+@import url(./layout/form.css);
+@import url(./layout/style.css);
+
+hr {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.title h1:hover {
+    color: blueviolet;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100% ;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    min-width: 400px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}

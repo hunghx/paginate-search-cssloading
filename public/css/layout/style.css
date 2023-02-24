@@ -1,0 +1,115 @@
+.nav-css {
+    background-color: black;
+    text-align: center !important;
+}
+
+.nav-css img {
+    width: 45%;
+    padding-top: 80px;
+}
+
+.admin:hover {
+    color: blueviolet;
+}
+
+.cart {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 79px;
+}
+
+.cart-img {
+    width: 50px;
+    height: auto;
+}
+
+.cart table {
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.cart table input {
+    width: 50%;
+}
+
+.sign {
+    padding: 0;
+    margin: 0;
+}
+
+.sign div img {
+    align-items: center;
+    text-align: right;
+    width: 300px;
+    height: auto;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgS {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.spanPro {
+    color: red;
+}
+
+.product {
+    text-align: center;
+    margin: 0 auto !important;
+}
+
+.product button:hover {
+    background-color: brown;
+}
+
+.product .col-3 {
+    overflow: hidden;
+    transition: .4s;
+}
+
+.product .col-3:hover {
+    transform: scale(1.05);
+
+}
+
+.slide {
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+}
+
+.slide img {
+    padding: 0;
+}
+
+.slide1 img {
+    padding: 0;
+    padding-top: 60px;
+}
+
+.listNav {
+    overflow: hidden;
+    transition: .4s;
+}
+
+.listNav ul li:hover {
+    transform: scale(1.05);
+}
+
+.listNav ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    padding: 20px 0;
+    margin: 0 auto;
+    align-items: center;
+
+}
