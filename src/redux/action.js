@@ -1,37 +1,37 @@
 import * as actionTypes from "./constants/actionTypes";
 //product
 export const act_get_pro = () => {
-    return {
-        type: actionTypes.PRO_GET
-    }
-}
+  return {
+    type: actionTypes.PRO_GET,
+  };
+};
 export const act_success_pro = (actionType, data) => {
-    return {
-        type: actionType,
-        payload: data
-    }
-}
+  return {
+    type: actionType,
+    payload: data,
+  };
+};
 export const act_post_pro = (newPro) => {
-    return {
-        type: actionTypes.PRO_POST,
-        payload: newPro
-    }
-}
+  return {
+    type: actionTypes.PRO_POST,
+    payload: newPro,
+  };
+};
 //user
 export const act_get_user = () => {
-    return {
-        type: actionTypes.USER_GET
-    }
-}
+  return {
+    type: actionTypes.USER_GET,
+  };
+};
 export const act_post_user = (newUser) => {
-    return {
-        type: actionTypes.USER_POST,
-        payload: newUser
-    }
-}
+  return {
+    type: actionTypes.USER_POST,
+    payload: newUser,
+  };
+};
 export const act_success_user = (actionType, data) => {
-    return {
-        type: actionType,
-        payload: data
-    }
-}
+  return {
+    type: actionType,
+    payload: data,
+  };
+};
