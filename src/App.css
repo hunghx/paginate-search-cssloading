@@ -1,3 +1,9 @@
 .active .page-link {
   background-color: orange !important;
 }
+/* body {
+  font-size: 14px;
+} */
+.text-error {
+  font-size: 0.7rem;
+}
