@@ -35,3 +35,15 @@ export const act_success_user = (actionType, data) => {
     payload: data,
   };
 };
+export const act_delete_pro = (idDel) => {
+  return {
+    type: actionTypes.PRO_DELETE,
+    payload: idDel,
+  };
+};
+export const act_update_pro = (proUpdate) => {
+  return {
+    type: actionTypes.PRO_UPDATE,
+    payload: proUpdate,
+  };
+};

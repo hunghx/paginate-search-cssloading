@@ -10,6 +10,9 @@ import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { act_get_pro } from "./redux/action";
 import Loading from "./components/Loading";
+import AddProduct from "./components/product/AddProduct";
+import EditProduct from "./components/product/EditProduct";
+import ListProduct from "./components/product/ListProduct";
 
 function App() {
   const [isLoad, setIsLoad] = useState(true);
@@ -33,12 +36,14 @@ function App() {
       ) : (
         <div className="container">
           <Routes>
-            <Route path="/" element={<Product />} />
+            <Route path="/admin" element={<Product />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signin" element={<Signin />} />
-            <Route path="/admin" element={<Admin />}>
-              <Route path="manage" element={<ManagerUser />} />
+            <Route path="/" element={<Admin />}>
+              <Route index element={<ListProduct />} />
+              <Route path="add-product" element={<AddProduct />} />
+              <Route path="edit-product" element={<EditProduct />} />
             </Route>
           </Routes>
         </div>
